@@ -1,0 +1,155 @@
+@import url('http://fonts.cdnfonts.com/css/sofia-pro');
+body {
+    font-family: 'Sofia Pro', sans-serif;
+}
+
+.landing-page {
+    height: 600px;
+    background-color: #0A9AEE;
+}
+
+.elements {
+    position: absolute;
+    z-index: 10;
+    color: white;
+}
+
+.form-check-label {
+    position: absolute;
+    left: 0%;
+    top: 76%;
+}
+
+.headings {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    align-items: center;
+    text-align: center;
+    top: 200px;
+    left: 500px;
+}
+
+.search-boxes {
+    position: absolute;
+    z-index: 10;
+    color: white;
+    align-items: center;
+    text-align: center;
+    top: 300px;
+    left: 500px;
+}
+
+.search2 {
+    width: 500px!important;
+}
+
+.clouds {
+    position: absolute;
+}
+
+#cloud1 {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+#cloud2 {
+    position: absolute;
+    top: 40px;
+    left: 1200px;
+}
+
+#cloud3 {
+    position: absolute;
+    top: 400px;
+    left: 900px;
+}
+
+.container {
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.container button {
+    position: absolute;
+    left: 1100px;
+}
+
+.box {
+    box-shadow: 2px;
+    border-radius: 5px;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 2px 1px rgba(0, 0, 0, 0.068);
+    align-items: center;
+    margin-top: 10px;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    background-color: #98ccebb9;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    padding: 3px;
+    color: blue;
+}
+
+.image {
+    margin: 20px;
+    margin-right: 50px;
+    width: 500px;
+}
+
+.content {
+    align-items: start!important;
+}
+
+.container-2 {
+    text-align: left;
+}
+
+.points {
+    margin: 10px;
+    padding: 10px;
+}
+
+.points h6 {
+    margin-left: 5px;
+}
+
+.details {
+    margin-left: 20px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.shape1 {
+    position: absolute;
+    left: -25%;
+    top: 320%;
+    width: 100px!important;
+}
+
+.card1 {
+    height: 300px!important;
+}
+
+@media only screen and (max-width: 1000px) {
+    .elements,
+    .headings,
+    .search-boxes,
+    .clouds,
+    .landing-page,
+    .btn-outline-primary,
+    .shape1 {
+        display: none;
+    }
+}
